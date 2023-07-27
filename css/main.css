@@ -137,12 +137,7 @@ textarea {
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
-
-  footer .contact-links li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0;
   }
 
   /************************* MOBILE STYLES - SKILLS *************************/
@@ -174,14 +169,12 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
   }
-  /*
+  
   .projects-wrapper {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    flex-flow: row wrap;
-    outline: 3px solid red;
-  }*/
+    flex-flow: column;
+  }
 
   .project-item {
     display: flex;
