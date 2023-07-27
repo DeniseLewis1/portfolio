@@ -100,7 +100,8 @@ textarea {
    }
 
    .content-wrapper {
-    margin: 0 auto;
+    width: 90%;
+    margin: 30px 0;
     overflow: auto;
    }
 
@@ -126,17 +127,26 @@ textarea {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 90%;
   }
 
   header nav ul {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+  }
+
+  footer .content-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
   footer .contact-links {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 65%;
     padding: 0;
   }
 
@@ -151,7 +161,7 @@ textarea {
   #skills .content-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-flow: column wrap;
   }
 
@@ -160,6 +170,10 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+  }
+
+  #skills ul {
+    margin: 0;
   }
 
   /************************ MOBILE STYLES - PROJECTS ************************/
@@ -173,6 +187,7 @@ textarea {
   .projects-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-flow: column;
   }
 
@@ -181,6 +196,19 @@ textarea {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    width: 90%;
+  }
+
+  .project-description {
+    margin: 20px 0;
+  }
+
+  .project-skills {
+    margin: 0;
+  }
+
+  .project-links {
+    margin: 30px 0;
   }
 
   /************************* MOBILE STYLES - ABOUT **************************/
