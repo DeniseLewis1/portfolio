@@ -86,6 +86,117 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+   /***************************** GLOBAL STYLES *****************************/
+  * {
+    outline: 1px dashed white;
+    box-sizing: border-box;
+  }
+
+   body {
+    font-family: "Nunito Sans", sans-serif;
+    color: #351D77;
+    background-color: #EC91C4;
+   }
+
+   .content-wrapper {
+    margin: 0 auto;
+    overflow: auto;
+   }
+
+   /********************** BASE HEADER - FOOTER STYLES **********************/
+   header,
+   footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+   header .content-wrapper
+   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer .contact-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer .contact-links li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /************************* MOBILE STYLES - SKILLS *************************/
+  #skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  #skills .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+
+  .skills-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+
+  /************************ MOBILE STYLES - PROJECTS ************************/
+  #projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  /*
+  .projects-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    outline: 3px solid red;
+  }*/
+
+  .project-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  /************************* MOBILE STYLES - ABOUT **************************/
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
 /* ==========================================================================
    Helper classes
