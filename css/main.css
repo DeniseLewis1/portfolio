@@ -105,7 +105,7 @@ textarea {
     overflow: auto;
    }
 
-   /********************** BASE HEADER - FOOTER STYLES **********************/
+   /*********************** BASE HEADER - FOOTER STYLES **********************/
    header,
    footer {
     display: flex;
@@ -158,7 +158,7 @@ textarea {
     flex-flow: row wrap;
   }
 
-  #skills .content-wrapper {
+  #skills .skills-wrapper {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -188,7 +188,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column;
+    flex-direction: column;
   }
 
   .project-item {
@@ -309,6 +309,75 @@ textarea {
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
+}
+
+  /*********************** BASE HEADER - FOOTER STYLES **********************/
+  /************************* TABLET STYLES - HEADER *************************/
+
+  /************************* TABLET STYLES - SKILLS *************************/
+  /************************ TABLET STYLES - PROJECTS ************************/
+  /************************* TABLET STYLES - ABOUT **************************/
+  /************************* TABLET STYLES - FOOTER *************************/
+
+  /****************************** TABLET STYLES *****************************/
+@media only screen and (min-width: 640px) {
+  .content-wrapper {
+    max-width: 640px;
+    margin: 40px 0;
+  }
+
+  header nav {
+    margin: 40px;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .header-text {
+    width: 55%;
+  }
+
+  header img {
+    width: 35%;
+    align-self: center;
+  }
+
+  #skills .content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  #skills .skills-wrapper {
+    width: 50%;
+    align-items: center;
+  }
+
+  .projects-wrapper {
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: row wrap;
+  }
+  .project-item {
+    width: 40%;
+    margin: 20px 0;
+  }
+
+  .about-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #about img {
+    width: 25%;
+    align-self: center;
+  }
+
+  .about-text {
+    width: 65%;
+  }
 }
 
 @media print,
