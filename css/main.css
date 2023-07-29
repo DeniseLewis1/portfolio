@@ -187,16 +187,22 @@ textarea {
   .projects-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-direction: column;
   }
 
   .project-item {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     width: 90%;
+  }
+
+  .project-title,
+  .project-image,
+  .project-links {
+    align-self: center;
   }
 
   .project-description {
@@ -348,7 +354,6 @@ textarea {
 
   .projects-wrapper {
     justify-content: space-around;
-    align-items: flex-start;
     flex-flow: row wrap;
   }
   .project-item {
