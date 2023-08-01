@@ -86,144 +86,143 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
-   /***************************** GLOBAL STYLES *****************************/
-  * {
-    outline: 1px dashed white;
-    box-sizing: border-box;
-  }
 
-   body {
-    font-family: "Nunito Sans", sans-serif;
-    color: #351D77;
-    background-color: #EC91C4;
-   }
+/***************************** GLOBAL STYLES *****************************/
+* {
+  outline: 1px dashed white;
+  box-sizing: border-box;
+}
 
-   .content-wrapper {
-    width: 90%;
-    margin: 30px 0;
-    overflow: auto;
-   }
+body {
+  font-family: "Nunito Sans", sans-serif;
+  color: #351D77;
+  background-color: #EC91C4;
+}
 
-   /*********************** BASE HEADER - FOOTER STYLES **********************/
-   header,
-   footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-   }
+.content-wrapper {
+  width: 90%;
+  margin: 30px 0;
+  overflow: auto;
+}
 
-   header .content-wrapper
-   {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
+/*********************** BASE HEADER - FOOTER STYLES **********************/
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-  header nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 90%;
-  }
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-  header nav ul {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+}
 
-  footer .content-wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 
-  footer .contact-links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 65%;
-    padding: 0;
-  }
+footer .content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
-  /************************* MOBILE STYLES - SKILLS *************************/
-  #skills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
+footer .contact-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65%;
+  padding: 0;
+}
 
-  #skills .skills-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: column wrap;
-  }
+/************************* MOBILE STYLES - SKILLS *************************/
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-  .skills-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-  }
+#skills .skills-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
 
-  #skills ul {
-    margin: 0;
-  }
+.skills-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
 
-  /************************ MOBILE STYLES - PROJECTS ************************/
-  #projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-  
-  .projects-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-direction: column;
-  }
+#skills ul {
+  margin: 0;
+}
 
-  .project-item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 90%;
-  }
+/************************ MOBILE STYLES - PROJECTS ************************/
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-  .project-title,
-  .project-image,
-  .project-links {
-    align-self: center;
-  }
+.projects-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+}
 
-  .project-description {
-    margin: 20px 0;
-  }
+.project-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 90%;
+}
 
-  .project-skills {
-    margin: 0;
-  }
+.project-title,
+.project-image,
+.project-links {
+  align-self: center;
+}
 
-  .project-links {
-    margin: 30px 0;
-  }
+.project-description {
+  margin: 20px 0;
+}
 
-  /************************* MOBILE STYLES - ABOUT **************************/
-  #about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
+.project-skills {
+  margin: 0;
+}
+
+.project-links {
+  margin: 30px 0;
+}
+
+/************************* MOBILE STYLES - ABOUT **************************/
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 /* ==========================================================================
    Helper classes
@@ -317,7 +316,7 @@ textarea {
   /* Style adjustments for viewports that meet the condition */
 }
 
-  /****************************** TABLET STYLES *****************************/
+/****************************** TABLET STYLES *****************************/
 @media only screen and (min-width: 640px) {
   .content-wrapper {
     margin: 40px 0;
@@ -331,7 +330,7 @@ textarea {
     display: flex;
     justify-content: space-evenly;
   }
-  
+
   .header-text {
     width: 55%;
   }
@@ -356,6 +355,7 @@ textarea {
     justify-content: space-around;
     flex-flow: row wrap;
   }
+
   .project-item {
     width: 40%;
     margin: 20px 0;
@@ -376,7 +376,7 @@ textarea {
   }
 }
 
-  /***************************** DESKTOP STYLES *****************************/
+/***************************** DESKTOP STYLES *****************************/
 @media only screen and (min-width: 1024px) {
   header .content-wrapper {
     justify-content: flex-end;
@@ -428,9 +428,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -441,6 +441,7 @@ textarea {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -508,4 +509,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
