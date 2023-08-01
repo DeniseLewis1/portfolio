@@ -378,7 +378,54 @@ textarea {
 
   /***************************** DESKTOP STYLES *****************************/
 @media only screen and (min-width: 1024px) {
+  header .content-wrapper {
+    justify-content: flex-end;
   }
+
+  header nav {
+    width: 40%;
+  }
+
+  header h1 {
+    margin: 40px 0;
+  }
+
+  header img {
+    width: 25%;
+  }
+
+  #skills .content-wrapper {
+    justify-content: center;
+  }
+
+  #skills .skills-wrapper {
+    width: 35%;
+  }
+
+  .projects-wrapper {
+    padding: 0 20px;
+  }
+
+  .project-item {
+    width: 30%;
+  }
+
+  #about img {
+    width: 20%;
+  }
+
+  .about-text {
+    width: 50%;
+  }
+
+  footer .content-wrapper {
+    align-items: flex-start;
+  }
+
+  footer .contact-links {
+    width: 35%;
+  }
+}
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
