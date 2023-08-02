@@ -88,15 +88,85 @@ textarea {
    ========================================================================== */
 
 /***************************** GLOBAL STYLES *****************************/
+:root {
+  --pink: #EC91C4;
+  --darkpurple: #351D77;
+  --mint: #E8F0E4;
+}
+
 * {
-  outline: 1px dashed white;
+  /*outline: 1px dashed white;*/
   box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
 }
 
 body {
   font-family: "Nunito Sans", sans-serif;
-  color: #351D77;
-  background-color: #EC91C4;
+  font-size: 1rem;
+  color: var(--darkpurple);
+  background-color: var(--pink);
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  color: var(--darkpurple);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--darkpurple);
+}
+
+a:hover {
+  color: var(--mint);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.9rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+#skills ul {
+  list-style: disc !important;
+}
+
+.contact-links {
+  font-size: 1.8rem;
+}
+
+.contact-links a:hover {
+  color: var(--darkpurple);
 }
 
 .content-wrapper {
