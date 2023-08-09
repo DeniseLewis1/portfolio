@@ -247,7 +247,6 @@ footer .contact-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
 }
 
 #skills .skills-wrapper {
@@ -449,15 +448,17 @@ footer .contact-links {
     align-self: flex-end;
   }
 
-  #skills .content-wrapper {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
+  #skills .skills-list {
+    width: 100%;
   }
 
-  #skills .skills-wrapper {
-    width: 50%;
-    align-items: center;
+  #skills ul {
+    column-count: 2;
+    gap: 80px;
+  }
+
+  #skills ul li {
+    margin: 0 20px;
   }
 
   .projects-wrapper {
@@ -510,12 +511,8 @@ footer .contact-links {
     width: 25%;
   }
 
-  #skills .content-wrapper {
-    justify-content: center;
-  }
-
-  #skills .skills-wrapper {
-    width: 35%;
+  #skills ul {
+    column-count: 3;
   }
 
   .projects-wrapper {
