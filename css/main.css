@@ -146,6 +146,7 @@ h2 {
 h3 {
   font-size: 1.6rem;
   font-weight: bold;
+  text-align: center;
 }
 
 h4 {
@@ -254,6 +255,10 @@ footer .contact-links {
   justify-content: center;
   align-items: flex-start;
   flex-flow: column wrap;
+}
+
+#skills h3 {
+  align-self: center;
 }
 
 .skills-list {
@@ -529,10 +534,6 @@ footer .contact-links {
 
   .about-text {
     width: 50%;
-  }
-
-  footer .content-wrapper {
-    align-items: flex-start;
   }
 
   footer .contact-links {
