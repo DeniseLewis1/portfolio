@@ -180,7 +180,8 @@ figure {
 
 .content-wrapper {
   width: 90%;
-  margin: 30px 0;
+  margin: 20px 0;
+  padding: 0 15px 20px 15px;
   overflow: auto;
 }
 
@@ -205,6 +206,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  margin: 30px 0;
   width: 90%;
 }
 
@@ -245,6 +247,7 @@ footer .contact-links {
   justify-content: space-around;
   align-items: center;
   width: 65%;
+  margin: 0;
   padding: 0;
 }
 
@@ -366,6 +369,10 @@ footer .contact-links a:hover {
   justify-content: center;
 }
 
+#about figure {
+  margin: 10px 0;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -461,11 +468,7 @@ footer .contact-links a:hover {
 /****************************** TABLET STYLES *****************************/
 @media only screen and (min-width: 640px) {
   .content-wrapper {
-    margin: 40px 0;
-  }
-
-  header nav {
-    margin: 40px;
+    margin: 30px 0;
   }
 
   .header-text {
@@ -476,6 +479,7 @@ footer .contact-links a:hover {
     width: 30%;
     /*align-self: center;*/
     align-self: flex-end;
+    margin: 20px auto;
   }
 
   #skills .skills-list {
@@ -497,7 +501,6 @@ footer .contact-links a:hover {
 
   .project-item {
     width: 45%;
-    margin: 20px 0;
   }
 
   .about-content {
@@ -512,6 +515,10 @@ footer .contact-links a:hover {
   .about-text {
     width: 60%;
   }
+
+  footer .contact-links {
+    width: 40%;
+  }
 }
 
 /***************************** DESKTOP STYLES *****************************/
@@ -522,10 +529,6 @@ footer .contact-links a:hover {
 
   header nav {
     width: 45%;
-  }
-
-  .header-content {
-    padding: 0 25px;
   }
 
   .header-text {
