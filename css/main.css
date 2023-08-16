@@ -89,9 +89,9 @@ textarea {
 
 /***************************** GLOBAL STYLES *****************************/
 :root {
-  --pink: #EC91C4;
-  --darkpurple: #351D77;
-  --mint: #E8F0E4;
+  --mint: #E1FAF4;
+  --blue: #071C96;
+  --pink: #FF69B4;
 }
 
 * {
@@ -106,8 +106,8 @@ html {
 body {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1rem;
-  color: var(--darkpurple);
-  background-color: var(--pink);
+  color: var(--blue);
+  background-color: var(--mint);
 }
 
 ul {
@@ -121,12 +121,12 @@ nav ul {
 }
 
 a {
-  color: var(--darkpurple);
+  color: var(--blue);
   text-decoration: none;
 }
 
 a:visited {
-  color: var(--darkpurple);
+  color: var(--blue);
 }
 
 h1 {
@@ -167,7 +167,7 @@ figure {
 }
 
 #skills ul {
-  list-style: disc !important;
+  /*list-style: disc !important;*/
 }
 
 .project-skills span {
@@ -222,8 +222,8 @@ header nav li {
 }
 
 header nav a:hover {
-  border-bottom: 2px solid var(--mint);
-  color: var(--darkpurple);
+  border-bottom: 2px solid var(--pink);
+  color: var(--blue);
 }
 
 .header-content {
@@ -252,7 +252,7 @@ footer .contact-links {
 }
 
 footer .contact-links a:hover {
-  color: var(--mint);
+  color: var(--pink);
 }
 
 /************************* MOBILE STYLES - SKILLS *************************/
@@ -284,6 +284,15 @@ footer .contact-links a:hover {
   margin: 0;
 }
 
+#skills ul li::before {
+  content: "\2022";
+  color: var(--pink);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 /************************ MOBILE STYLES - PROJECTS ************************/
 #projects {
   display: flex;
@@ -308,12 +317,13 @@ footer .contact-links a:hover {
   max-width: 350px;
   width: 70%;
   padding: 0 20px;
-  border: 2px solid var(--darkpurple);
+  border: 2px solid var(--blue);
   border-radius: 20px;
 }
 
 .project-title {
   align-self: center;
+  border-bottom: 2px solid var(--pink);
 }
 
 #projects figure {
@@ -346,13 +356,14 @@ footer .contact-links a:hover {
 
 .project-links a {
   padding: 5px 10px;
-  border: 1px solid var(--darkpurple);
+  border: 1px solid var(--blue);
   border-radius: 18px;
 }
 
 .project-links a:hover {
-  color: var(--pink);
-  background: var(--darkpurple);
+  color: var(--blue);
+  background: var(--pink);
+  opacity: 0.8;
 }
 
 /************************* MOBILE STYLES - ABOUT **************************/
