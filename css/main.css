@@ -95,7 +95,7 @@ textarea {
 }
 
 * {
-  /*outline: 1px dashed white;*/
+  /*outline: 1px dashed black;*/
   box-sizing: border-box;
 }
 
@@ -166,10 +166,6 @@ figure {
   font-size: 3.2rem;
 }
 
-#skills ul {
-  /*list-style: disc !important;*/
-}
-
 .project-skills span {
   font-weight: bold;
 }
@@ -236,18 +232,12 @@ header figure {
   margin: 0 auto;
 }
 
-footer .content-wrapper {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 footer .contact-links {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 65%;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -267,10 +257,6 @@ footer .contact-links a:hover {
   justify-content: center;
   align-items: flex-start;
   flex-flow: column wrap;
-}
-
-#skills h3 {
-  align-self: center;
 }
 
 .skills-list {
