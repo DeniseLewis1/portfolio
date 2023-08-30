@@ -145,6 +145,10 @@ h3 {
   text-align: center;
 }
 
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
 h4 {
   font-size: 1rem;
 }
