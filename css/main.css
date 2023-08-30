@@ -249,6 +249,12 @@ footer .contact-links a:hover {
   color: var(--pink);
 }
 
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
 /************************* MOBILE STYLES - SKILLS *************************/
 #skills {
   display: flex;
