@@ -89,7 +89,7 @@ textarea {
 
 /***************************** GLOBAL STYLES *****************************/
 :root {
-  /*--yellow: #FEFADE;*/
+  --yellow: #FEFADE;
   --mint: #E1FAF4;
   --blue: #071C96;
   --pink: #FF69B4;
@@ -108,7 +108,7 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1rem;
   color: var(--blue);
-  background-color: var(--mint);
+  background-color: var(--yellow);
 }
 
 ul {
@@ -326,8 +326,8 @@ footer .copyright {
   padding: 0 20px;
   border: 2px solid var(--blue);
   border-radius: 20px;
-  box-shadow: 6px 6px 3px 0px rgba(255, 105, 180, 0.7);
-  /*box-shadow: 7px 7px 4px 0px rgba(7, 28, 150, 0.7);*/
+  /*box-shadow: 6px 6px 3px 0px rgba(255, 105, 180, 0.7);*/
+  box-shadow: 7px 7px 4px 0px rgba(7, 28, 150, 0.7);
 }
 
 .project-title {
