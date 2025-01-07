@@ -377,6 +377,52 @@ footer .copyright {
   opacity: 0.8;
 }
 
+/************************* MOBILE STYLES - CERTIFICATES **************************/
+#certificates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#certificates .certificates-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
+
+.certificates-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+#certificates ul {
+  margin: 0;
+}
+
+#certificates ul li::before {
+  content: "\2022";
+  color: var(--pink);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.certificate-organization {
+  font-style: italic;
+}
+
+#certificates a {
+  font-size: 0.9rem;
+}
+
+#certificates a:hover {
+  color: var(--pink);
+}
+
 /************************* MOBILE STYLES - ABOUT **************************/
 #about {
   display: flex;
@@ -525,6 +571,14 @@ footer .copyright {
 
   .project-item {
     width: 45%;
+  }
+
+  #certificates .certificates-list {
+    width: 100%;
+  }
+
+  #certificates ul li {
+    margin: 0 20px;
   }
 
   #about figure {
